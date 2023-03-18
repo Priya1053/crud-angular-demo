@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "emp": [
+    {
+      "Name": "priya ",
+      "Email": "priya2@gmail.com",
+      "password": "priya12",
+      "DateofBirth": "2023-03-02T05:00:00.000Z",
+      "Gender": "female",
+      "Qualification": "B.E",
+      "Company": "contis",
+      "Experience": 1,
+      "Package": 3,
+      "id": 1
+    },
+    {
+      "Name": "Ritu",
+      "Email": "Ritu1@gmail.com",
+      "password": "ritu12",
+      "DateofBirth": "2023-03-04T05:00:00.000Z",
+      "Gender": "female",
+      "Qualification": "BCA",
+      "Company": "aark",
+      "Experience": 2,
+      "Package": 4,
+      "id": 2
+    },
+    {
+      "Name": "dhara",
+      "Email": "dhara12@gmail.com",
+      "password": "dhara12",
+      "DateofBirth": "2023-03-09T05:00:00.000Z",
+      "Gender": "female",
+      "Qualification": "BCA",
+      "Company": "infolabz",
+      "Experience": 2,
+      "Package": 2,
+      "id": 3
+    },
+    {
+      "Name": "rohan",
+      "Email": "rohan2@gamil.com",
+      "password": "ravi13",
+      "DateofBirth": "2023-03-22T04:00:00.000Z",
+      "Gender": "male",
+      "Qualification": "MCA",
+      "Company": "infotech",
+      "Experience": 6,
+      "Package": 12,
+      "id": 4
+    },
+    {
+      "Name": "jay",
+      "Email": "jay1@gmail.com",
+      "password": "ankit12",
+      "DateofBirth": "2023-03-17T04:00:00.000Z",
+      "Gender": "male",
+      "Qualification": "MCA",
+      "Company": "shine",
+      "Experience": 8,
+      "Package": 34,
+      "id": 5
+    }
+  ]
+}
