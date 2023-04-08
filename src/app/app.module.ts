@@ -26,6 +26,7 @@ import { MatSortModule } from '@angular/material/sort';
   declarations: [
     AppComponent,
     EmpAddEditComponent
+
   ],
   imports: [
     BrowserModule,

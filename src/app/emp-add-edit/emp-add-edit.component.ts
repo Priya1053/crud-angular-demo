@@ -6,13 +6,15 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Subscriber } from 'rxjs';
 import { EmployeeService } from '../services/employee.service';
 
+
 @Component({
   selector: 'app-emp-add-edit',
   templateUrl: './emp-add-edit.component.html',
   styleUrls: ['./emp-add-edit.component.css']
 })
 export class EmpAddEditComponent implements OnInit{
-empForm:FormGroup;
+  empForm:FormGroup;
+
 
 education:string[]=[
   'B.E',
@@ -21,12 +23,13 @@ education:string[]=[
   'BCA',
   'MCA'
 ];
-
+  
 constructor(
   private _fb:FormBuilder ,
   private _empservice:EmployeeService,
   private _dialogRef:MatDialogRef<EmpAddEditComponent>,
   @Inject(MAT_DIALOG_DATA) public data:any
+
   )
 
 
@@ -45,10 +48,10 @@ constructor(
   });
 }
 
-
 ngOnInit(): void {
   this.empForm.patchValue(this.data);
 }
+
 onFormSubmit(){
   if(this.empForm.valid){
     {
@@ -83,3 +86,4 @@ onFormSubmit(){
   }
 }
 }
+

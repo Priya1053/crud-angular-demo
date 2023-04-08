@@ -17,20 +17,18 @@
     "name": "typicode"
   },
   "emp": [
-    {
-      "Name": "priya ",
-      "Email": "priya2@gmail.com",
-      "password": "priya12",
-      "DateofBirth": "2023-03-02T05:00:00.000Z",
-      "Gender": "female",
-      "Qualification": "B.E",
-      "Company": "contis",
-      "Experience": 1,
-      "Package": 3,
-      "id": 1
-    },
-    {
-      "Name": "Ritu",
+    {   "Name": "priya ",
+    "Email": "priya2@gmail.com",
+    "password": "priya12",
+    "DateofBirth": "2023-03-02T05:00:00.000Z",
+    "Gender": "female",
+    "Qualification": "B.E",
+    "Company": "contis",
+    "Experience": 1,
+    "Package": 3,
+    "id": 1
+  },
+  {      "Name": "Ritu",
       "Email": "Ritu1@gmail.com",
       "password": "ritu12",
       "DateofBirth": "2023-03-04T05:00:00.000Z",
@@ -56,25 +54,25 @@
     {
       "Name": "rohan",
       "Email": "rohan2@gamil.com",
-      "password": "ravi13",
+      "password": "rohan12",
       "DateofBirth": "2023-03-22T04:00:00.000Z",
       "Gender": "male",
-      "Qualification": "MCA",
+      "Qualification": "B.E",
       "Company": "infotech",
-      "Experience": 6,
+      "Experience": 10,
       "Package": 12,
       "id": 4
     },
     {
       "Name": "jay",
       "Email": "jay1@gmail.com",
-      "password": "ankit12",
+      "password": "jay123",
       "DateofBirth": "2023-03-17T04:00:00.000Z",
       "Gender": "male",
       "Qualification": "MCA",
       "Company": "shine",
       "Experience": 8,
-      "Package": 34,
+      "Package": 12,
       "id": 5
     }
   ]
